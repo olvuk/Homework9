@@ -43,7 +43,6 @@ public class Main {
     }
     public static void task3() {
         System.out.println("Задача 3");
-        System.out.println();
         int[] arr = generateRandomArray();
         int total = IntStream.of(arr).sum();
         double average = total/30;
